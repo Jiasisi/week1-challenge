@@ -1,0 +1,144 @@
+* {
+/* Universal selector */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+/* Element selector */
+/* Sets the background of the body section */
+    background-color: #d9dcd6;
+}
+
+header {
+/* Sets the background, font, font color, and padding size of the header section */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+main {
+/* Sets the width, the left of the margin of the main section */
+/* Sets the display of main section */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer {
+/* Sets the text font and center of the footer */
+/* Sets the padding size of the footer */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul {
+/* Sets the size of margin and padding of the list section */
+/* Sets the lis section float on the right of the h1 */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+li {
+/* Sets the list iteams inline */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+/* remove the underline of the link */
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+
+figure img {
+/* Sets the width of the picture is the same with the width of the webpage */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Class selector */
+.main-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets the height of the image inside the main section */
+.main-box img {
+    max-height: 200px;
+}
+
+.main-box h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets section float on the left or right hand of another section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sets the "benefit" section on the right of the main section */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-box {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-box img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* id selector */
+#seo {
+/* Sets the font color of "seo" */
+    color: #d9dcd6;
+}
