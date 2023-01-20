@@ -9,5 +9,9 @@ I have refactored the Index.html and CSS file to make them meet the requirements
 5. I created a repo for this challenge and used git commands to upload my files to the github. 
 6. I deployed the pages that I refactored. 
 
+screenshot:
+![](assests/images/screenshot.png)
+
+
 ## link to deployed application
 link: https://jiasisi.github.io/week1-challenge/
